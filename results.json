@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Amelia Hart",
+    "stated_occupation": "Baker",
+    "baker_status": "SUPPORTED",
+    "evidence": [
+      "Amelia prepares breads and pastries daily for retail and wholesale customers.",
+      "Responsibilities include mixing and scaling ingredients, kneading dough, managing fermentation and proofing times, shaping loaves, and operating deck and convection ovens.",
+      "She bakes sourdough, baguettes, sandwich loaves, and laminated pastries."
+    ],
+    "reason": "The document clearly states that Amelia is a baker and describes her duties, which involve various baking tasks.",
+    "_file": "01_amelia_hart_true_baker.txt"
+  },
+  {
+    "name": "Marcus Lee",
+    "stated_occupation": "Baker",
+    "baker_status": "CONFLICT",
+    "evidence": [
+      "He does not operate ovens or prepare dough",
+      "baked goods arrive pre-made from a central supplier",
+      "He stocks shelves, rotates inventory, prints price labels"
+    ],
+    "reason": "The stated occupation is 'Baker', but the job duties do not involve any baking tasks.",
+    "_file": "02_marcus_lee_false_baker_label.txt"
+  },
+  {
+    "name": "Priya Nair",
+    "stated_occupation": "Data Analyst",
+    "baker_status": "NOT_FOUND",
+    "evidence": [],
+    "reason": "The document describes Priya's role as a Data Analyst with no mention of baking or related duties.",
+    "_file": "03_priya_nair_data_analyst.txt"
+  },
+  {
+    "name": "Jose Alvarez",
+    "stated_occupation": "Line Cook",
+    "baker_status": "NOT_FOUND",
+    "evidence": [
+      "He occasionally prepares dessert components (e.g., sauces, whipped cream), but does not produce breads or pastries",
+      "does not manage baking schedules"
+    ],
+    "reason": "The document indicates that Jose does not engage in baking tasks or manage baking schedules, which does not support the classification of him as a baker.",
+    "_file": "04_jose_alvarez_chef_trap_overlap.txt"
+  },
+  {
+    "name": "Sarah Kim",
+    "stated_occupation": "Flight Attendant",
+    "baker_status": "NOT_FOUND",
+    "evidence": [],
+    "reason": "The document does not provide any evidence that Sarah is a baker or involved in baking tasks.",
+    "_file": "05_sarah_kim_flight_attendant.txt"
+  }
+]
