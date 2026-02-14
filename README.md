@@ -85,6 +85,10 @@ Create a `.env` file in the root directory:
 Using `python-dotenv` keeps credentials out of source control and makes
 the demo clean and portable.
 
+⚠️ Security Note: This repository does not include a .env file.
+API keys are sensitive credentials and must never be committed to source control.
+Create your own .env locally and ensure it is listed in .gitignore.
+
 ------------------------------------------------------------------------
 
 ## 🧠 Agentic API Design Philosophy
