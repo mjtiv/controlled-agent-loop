@@ -212,5 +212,18 @@ This project demonstrates:
 
 AI systems should be architected --- not prompted casually.
 
+---
+
+## ⚖️ Disclaimer
+
+This repository was created for educational and demonstration purposes only.
+
+Created by **M. Joseph Tomlinson IV**  
+Contact: mjtiv@udel.edu  
+
+Feel free to use, modify, adapt, and build upon this project as you see fit.
+
+
+
 
 
