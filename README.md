@@ -15,6 +15,24 @@ AI execution**.
 
 ------------------------------------------------------------------------
 
+## 📘 Table of Contents
+
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Setting Up OpenAI API Access](#setting-up-openai-api-access)
+  - [Create an OpenAI Account](#create-an-openai-account)
+  - [Add Billing](#add-billing)
+  - [Generate an API Key](#generate-an-api-key)
+- [Environment Setup](#environment-setup)
+- [Agentic API Design Philosophy](#agentic-api-design-philosophy)
+- [Biggest Issue with AI + API Calling](#biggest-issue-with-ai--api-calling)
+- [Token Planning Guide](#token-planning-guide)
+- [Engineering Takeaway](#engineering-takeaway)
+- [Running the Demo](#running-the-demo)
+- [Why This Matters](#why-this-matters)
+
+------------------------------------------------------------------------
+
 ## 📁 Project Structure
 
 Place your files in the following layout:
