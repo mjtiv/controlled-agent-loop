@@ -26,6 +26,18 @@ The real objective is demonstrating a reproducible, auditable agent loop:
 
 ------------------------------------------------------------------------
 
+## 🔁 Controlled Agent Loop
+
+<p align="center">
+  <img src="Simple_Agentic_API_Flowchart.png" width="550">
+</p>
+
+<p align="center">
+  <em>Agentic API calling is just a controlled loop: iterate files → call model → parse JSON → persist results.</em>
+</p>
+
+------------------------------------------------------------------------
+
 ## 📘 Table of Contents
 
 - [Project Structure](#project-structure)
