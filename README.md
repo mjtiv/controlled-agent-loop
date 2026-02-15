@@ -29,7 +29,7 @@ The real objective is demonstrating a reproducible, auditable agent loop:
 ## 🔁 Controlled Agent Loop
 
 <p align="center">
-  <img src="Simple_Agentic_API_Flowchart.png" width="550">
+  <img src="Cropped_Simple_Agentic_API_Flowchart.png" width="550">
 </p>
 
 <p align="center">
