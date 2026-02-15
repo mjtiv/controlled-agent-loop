@@ -1,17 +1,28 @@
 # Agentic Role Check Demo
 
-A lightweight demonstration of structured, agent-driven document
-evaluation using the OpenAI API.
+A lightweight demonstration of **controlled AI execution** using the OpenAI API.
 
-This project showcases how to:
+This project evaluates flat `.txt` files representing individual profiles.  
+Each file may contain:
 
--   Parse individual text files representing people profiles
--   Send them to a structured AI agent
--   Classify whether the person matches a specified role (e.g., "baker")
--   Avoid cognitive drift by keeping prompts small and controlled
+- A stated occupation
+- A job description
+- Supporting (or conflicting) responsibilities
 
-The goal is not just classification --- it's demonstrating **controlled
-AI execution**.
+The agent must determine — based only on the document text — whether the person is truly a **BAKER**.
+
+Importantly, some files include a **false or misleading self-described label** (e.g., someone claims “baker” but performs no baking duties).
+
+This ensures the system is **not performing a simple keyword search**.  
+Instead, the model must:
+
+- Analyze responsibilities
+- Compare claims against duties
+- Detect contradictions
+- Provide verbatim evidence
+- Return structured JSON under a strict schema
+
+The real objective is demonstrating a reproducible, auditable agent loop:
 
 ------------------------------------------------------------------------
 
