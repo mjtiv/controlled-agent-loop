@@ -69,4 +69,23 @@ Use the actual script name provided in the project (for example: `run_role_check
 - The setup process is usually the hardest part for first-time users.
 - After Python is installed, running the agent only requires a single command.
 
+---
+
+### Optional: Using an Editor (Sublime, VSCode, etc.)
+
+While the demo can be run entirely from PowerShell or Terminal,
+many users prefer editing the code in a programming editor such as
+Sublime Text or Visual Studio Code.
+
+Typical workflow:
+
+1. Open the project folder in your editor.
+2. Edit configuration or prompts as desired.
+3. Run the script from a terminal:
+
+       python main.py
+
+Some editors also allow running Python directly from inside the editor
+using build systems or extensions, but this is optional.
+The command-line approach above works universally across systems.
 
