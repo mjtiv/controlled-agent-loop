@@ -36,6 +36,8 @@ Example:
 
 (You can copy the folder path from File Explorer and paste it.)
 
+Make sure you are inside the project folder before running the next commands.
+
 ---
 
 ### 4. Install Required Packages
@@ -46,7 +48,7 @@ Once inside the project folder, run:
 
 This installs the required Python libraries.
 
-Note: `requirements.txt` is a common filename used to list dependencies.
+Note: `requirements.txt` is a common filename used to list dependencies.  
 If your project uses a different filename, adjust the command accordingly.
 
 ---
@@ -59,7 +61,7 @@ Run the main program:
 
 Outputs will be written to the `output/` folder.
 
-Note: `main.py` is used here as an example name for the primary script.
+Note: `main.py` is used here as an example name for the primary script.  
 Use the actual script name provided in the project (for example: `run_role_check.py`).
 
 ---
@@ -68,13 +70,14 @@ Use the actual script name provided in the project (for example: `run_role_check
 
 - The setup process is usually the hardest part for first-time users.
 - After Python is installed, running the agent only requires a single command.
+- Running from PowerShell or Terminal is recommended to avoid environment or path issues.
 
 ---
 
 ### Optional: Using an Editor (Sublime, VSCode, etc.)
 
-While the demo can be run entirely from PowerShell or Terminal,
-many users prefer editing the code in a programming editor such as
+While the demo can be run entirely from PowerShell or Terminal,  
+many users prefer editing the code in a programming editor such as  
 Sublime Text or Visual Studio Code.
 
 Typical workflow:
@@ -85,7 +88,6 @@ Typical workflow:
 
        python main.py
 
-Some editors also allow running Python directly from inside the editor
-using build systems or extensions, but this is optional.
+Some editors also allow running Python directly from inside the editor  
+using build systems or extensions, but this is optional.  
 The command-line approach above works universally across systems.
-
