@@ -78,6 +78,11 @@ Install required dependencies:
 
     pip install openai python-dotenv
 
+If you need help installing Python or running commands in PowerShell,
+see the setup guide:
+
+👉 [Software Setup Guide](Setup_Software.md)
+
 ------------------------------------------------------------------------
 
 ## 🔑 Setting Up OpenAI API Access
