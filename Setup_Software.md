@@ -46,6 +46,9 @@ Once inside the project folder, run:
 
 This installs the required Python libraries.
 
+Note: `requirements.txt` is a common filename used to list dependencies.
+If your project uses a different filename, adjust the command accordingly.
+
 ---
 
 ### 5. Run the Script
@@ -56,10 +59,14 @@ Run the main program:
 
 Outputs will be written to the `output/` folder.
 
+Note: `main.py` is used here as an example name for the primary script.
+Use the actual script name provided in the project (for example: `run_role_check.py`).
+
 ---
 
 ### Notes
 
 - The setup process is usually the hardest part for first-time users.
 - After Python is installed, running the agent only requires a single command.
+
 
